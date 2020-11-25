@@ -1,9 +1,11 @@
 :root {
   --primary-text-color: #000000;
+  --navigation-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --accent-color-text: #ffffff;
   --section-bg-color: #f5f4fa;
+  --address-bg-color: #2f303a;
   --main-font-family: Roboto, sans-serif;
   --main-logo-font: Raleway, sans-serif;
 }
@@ -26,8 +28,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ---------- Header and Footer start ---------- */
@@ -65,7 +67,7 @@ body {
 .main-nav .link,
 .contact-nav .link {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--navigation-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -90,7 +92,7 @@ body {
 /* adress */
 
 .address {
-  background-color: var(--primary-text-color);
+  background-color: var(--address-bg-color);
   font-style: normal;
 }
 
@@ -106,6 +108,13 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.address-links {
+  padding: 0px;
+  list-style: none;
+  margin-top: 0px;
 }
 
 .address-links .link {
@@ -114,6 +123,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .address-links .link.contact {
@@ -196,9 +206,8 @@ body {
 .section .example-images {
   padding: 0px;
   list-style: none;
-  margin-top: 0px;
-
-  outline: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* team section */
@@ -206,13 +215,25 @@ body {
   background-color: var(--section-bg-color);
 }
 
-.section .team-title {
+.team-section .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   line-height: 1.7;
 
-  outline: auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.team-section .team-cards {
+  padding: 0px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team-section .card {
+  margin-bottom: 30px;
 }
 
 .team-section .headline {
@@ -220,7 +241,8 @@ body {
   font-size: 16px;
   line-height: 1.2;
 
-  outline: auto;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-section .text-profession {
@@ -229,7 +251,7 @@ body {
   font-size: 16px;
   line-height: 19px;
 
-  outline: auto;
+  margin: 0;
 }
 
 /* --------------- INDEX.HTML END --------------- */
