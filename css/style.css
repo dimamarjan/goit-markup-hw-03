@@ -15,27 +15,6 @@ body {
   font-family: var(--main-font-family);
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 /* current page nav accent */
 .main-nav .link.current {
   color: var(--accent-color);
@@ -47,7 +26,6 @@ p {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 94px;
 
   outline: auto;
 }
@@ -56,6 +34,7 @@ p {
 
 /* logo */
 .logo-nav {
+  text-decoration: none;
   color: var(--primary-text-color);
   font-family: var(--main-logo-font);
   font-weight: 700;
@@ -69,6 +48,13 @@ p {
 }
 
 /* Nav section */
+.contact-nav,
+.main-nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 .navigation {
   margin: 0 auto;
   width: 1230px;
@@ -78,6 +64,7 @@ p {
 
 .main-nav .link,
 .contact-nav .link {
+  text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -108,7 +95,8 @@ p {
 }
 
 .address .section {
-  margin-top: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .address .logo-address {
@@ -142,38 +130,48 @@ p {
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
+  color: var(--accent-color-text);
 
-  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .button {
-  color: var(--section-bg-color);
+  text-decoration: none;
+  color: var(--accent-color-text);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 
+  min-width: 200px;
   border: solid transparent;
   border-radius: 6px;
   display: inline-block;
   padding: 10px 32px;
-  margin-top: 30px;
 }
 
 .hero {
   text-align: center;
-
-  height: 600px;
-
-  outline: auto;
+  background-color: #2f303a;
 }
 
-/* skills section */
-.section .section-title {
+/* skills company section */
+.skills {
+  padding: 0px;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+
+.skills .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .skills .text {
@@ -181,12 +179,26 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+
+  margin: 0;
 }
 
-.skills .example-title {
+/* examples section */
+.section .example-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.section .example-images {
+  padding: 0px;
+  list-style: none;
+  margin-top: 0px;
+
+  outline: auto;
 }
 
 /* team section */
@@ -194,17 +206,21 @@ p {
   background-color: var(--section-bg-color);
 }
 
-.team-section .section-title {
+.section .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   line-height: 1.7;
+
+  outline: auto;
 }
 
 .team-section .headline {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+
+  outline: auto;
 }
 
 .team-section .text-profession {
@@ -212,6 +228,8 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+
+  outline: auto;
 }
 
 /* --------------- INDEX.HTML END --------------- */
