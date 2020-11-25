@@ -149,7 +149,6 @@ p {
 .button {
   color: var(--section-bg-color);
   background-color: var(--accent-color);
-  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -172,7 +171,6 @@ p {
 
 /* skills section */
 .section .section-title {
-  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -180,7 +178,6 @@ p {
 
 .skills .text {
   color: var(--secondary-text-color);
-  font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
