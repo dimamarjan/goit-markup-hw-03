@@ -122,12 +122,18 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .address-links {
   padding: 0px;
   list-style: none;
-  margin-top: 0px;
+  margin: 0px;
+}
+
+.address-links .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-links .link {
