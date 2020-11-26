@@ -274,6 +274,13 @@ body {
 }
 
 /* filter buttons */
+.filter {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
 .filter .radio {
   font-family: var(--main-font-family);
   background-color: #f5f4fa;
@@ -289,11 +296,25 @@ body {
 }
 
 /* projexts section */
+.filter-item {
+  text-decoration: none;
+  margin: 0;
+}
+
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .projects .project-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .projects .project-text {
@@ -301,10 +322,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+
+  margin: 0;
 }
 
 .projects .filter-item:focus {
   color: var(--accent-color);
+}
+
+.filter-item .item-text {
+  padding: 20px 24px;
 }
 
 /* --------------- PORTFOLIO.HTML END --------------- */
