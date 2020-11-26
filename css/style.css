@@ -276,6 +276,14 @@ body {
   margin-right: 30px;
 }
 
+.team-section .card-item {
+  background-color: var(--accent-color-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+}
+
 .card-item .headline,
 .card-item .description {
   text-align: center;
@@ -319,14 +327,15 @@ body {
 }
 
 /* filter buttons */
-.filter {
+.section .filter {
   list-style: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 34px;
+  display: flex;
 }
 
-.filter .radio {
+.filter .radio-btn {
   font-family: var(--main-font-family);
   background-color: #f5f4fa;
   font-weight: 500;
@@ -334,8 +343,8 @@ body {
   line-height: 1.62;
 }
 
-.filter .radio:hover,
-.filter .radio:focus {
+.filter .radio-btn:hover,
+.filter .radio-btn:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
 }
