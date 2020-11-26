@@ -43,25 +43,34 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .logo-main {
   color: var(--accent-color);
 }
 
-/* Nav section */
+/* Navigation section */
 .contact-nav,
 .main-nav {
   margin: 0px;
   padding: 0px;
+
   list-style: none;
+  display: flex;
 }
 
 .navigation {
   margin: 0 auto;
   width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+.navigation .contact-nav {
+  margin-left: auto;
 }
 
 .main-nav .link,
@@ -72,14 +81,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
 }
 
 .contact-nav .link {
   color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .main-nav .link:hover,
@@ -87,6 +95,11 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent-color);
+}
+
+.navigation .nav-item:not(:last-child),
+.navigation .nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* adress */
@@ -97,8 +110,8 @@ body {
 }
 
 .address .section {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address .logo-address {
@@ -132,7 +145,7 @@ body {
 
 /* --------------- Header and Footer end --------------- */
 
-/* --------------- INDEX.HTML START --------------- */
+/* --------------- INDEX.HTML START -------------------- */
 
 /* hero */
 .hero .hero-title {
@@ -256,9 +269,9 @@ body {
 
 /* --------------- INDEX.HTML END --------------- */
 
-/* --------------- PORTFOLIO.HTML START --------------- */
+/* --------------- PORTFOLIO.HTML START --------- */
 
-/* h1 */
+/* h1 h2 hiden*/
 .visually-hidden {
   position: absolute;
   width: 1px;
