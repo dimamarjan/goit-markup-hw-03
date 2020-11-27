@@ -369,6 +369,8 @@ body {
 .filter-item {
   text-decoration: none;
   margin: 0;
+
+  outline: auto solid red;
 }
 
 .projects {
@@ -377,15 +379,18 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects .item {
+  margin-top: 0;
   margin-bottom: 30px;
+  height: 404px;
   border: 1px solid #eeeeee;
 }
 
 .projects .item:not(:nth-child(3n)) {
-  margin-right: 42px;
+  margin-right: 30px;
 }
 
 .projects .item:nth-last-child(-n + 3) {
@@ -419,6 +424,7 @@ body {
 
 .filter-item .item-text {
   padding: 20px 24px;
+  width: 368px;
 }
 
 /* --------------- PORTFOLIO.HTML END --------------- */
