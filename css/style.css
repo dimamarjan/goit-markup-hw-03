@@ -330,7 +330,8 @@ body {
 
 /* filter buttons */
 .filter .item {
-  display: inline-block;
+  display: inline;
+  margin: 0;
 }
 
 .filter .item:not(:last-child) {
@@ -340,7 +341,10 @@ body {
 .section .filter {
   list-style: none;
   margin-bottom: 34px;
+  padding: 0;
+
   text-align: center;
+  display: block;
 }
 
 .filter .radio-btn {
