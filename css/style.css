@@ -388,7 +388,7 @@ body {
 }
 
 .projects .item:not(:nth-child(3n)) {
-  margin-right: 30px;
+  margin-right: 42px;
 }
 
 .projects .item:nth-last-child(-n + 3) {
