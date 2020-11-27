@@ -329,11 +329,6 @@ body {
 }
 
 /* filter buttons */
-.filter .item {
-  display: inline;
-  margin: 0;
-}
-
 .filter .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -344,8 +339,8 @@ body {
   margin-bottom: 34px;
   padding: 0;
 
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .filter .radio-btn {
