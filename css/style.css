@@ -369,8 +369,6 @@ body {
 .filter-item {
   text-decoration: none;
   margin: 0;
-
-  outline: auto solid red;
 }
 
 .projects {
@@ -385,7 +383,7 @@ body {
 .projects .item {
   margin-top: 0;
   margin-bottom: 30px;
-  height: 404px;
+  min-height: 404px;
   border: 1px solid #eeeeee;
 }
 
