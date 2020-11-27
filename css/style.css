@@ -27,10 +27,7 @@ body {
 .section {
   margin: 0 auto;
   width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 15px;
 }
 
 /* ---------- Header and Footer start ---------- */
@@ -44,6 +41,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   margin-right: 93px;
 }
 
@@ -82,8 +80,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   padding-top: 25px;
   padding-bottom: 25px;
+
   display: block;
 }
 
