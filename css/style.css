@@ -6,6 +6,7 @@
   --accent-color-text: #ffffff;
   --section-bg-color: #f5f4fa;
   --address-bg-color: #2f303a;
+  --buttons-bg: #f5f4fa;
   --main-font-family: Roboto, sans-serif;
   --main-logo-font: Raleway, sans-serif;
 }
@@ -165,7 +166,7 @@ body {
   margin-bottom: 30px;
 }
 
-.button {
+.hero .button {
   text-decoration: none;
   color: var(--accent-color-text);
   background-color: var(--accent-color);
@@ -327,26 +328,38 @@ body {
 }
 
 /* filter buttons */
+.filter .item {
+  display: inline-block;
+}
+
+.filter .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .section .filter {
   list-style: none;
-  padding: 0;
-  margin-top: 0;
   margin-bottom: 34px;
-  display: flex;
+  text-align: center;
 }
 
 .filter .radio-btn {
   font-family: var(--main-font-family);
-  background-color: #f5f4fa;
+  background-color: var(--section-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  margin: 0;
+  border: none;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .filter .radio-btn:hover,
 .filter .radio-btn:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* projexts section */
@@ -359,6 +372,27 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.projects .item {
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+
+.projects .item:hover,
+.projects .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects .item.last {
+  margin-bottom: 0px;
 }
 
 .projects .project-title {
