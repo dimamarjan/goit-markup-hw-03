@@ -354,6 +354,7 @@ body {
   border: none;
   padding: 6px 22px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .filter .radio-btn:hover,
