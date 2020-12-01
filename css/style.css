@@ -83,8 +83,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-nav .link {
@@ -121,7 +121,6 @@ body {
 }
 
 /* adress */
-
 .address {
   background-color: var(--address-bg-color);
   font-style: normal;
